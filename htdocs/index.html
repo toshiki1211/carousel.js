@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>carousel</title>
+	<link rel="stylesheet" type="text/css" href="./css/screen.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./js/carousel/carousel.css">
+	<script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="./js/carousel/jquery.carousel.js"></script>
+	<script type="text/javascript">
+		jQuery(function($){
+			$('#carousel').carousel({
+				speed : 800,
+				delay : 4000
+			});
+		});
+	</script>
+</head>
+<body>
+	<section>
+		<div id="carousel">
+			<div id="img_container">
+				<div id="img">
+					<ul>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>1</span></li>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>2</span></li>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>3</span></li>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>4</span></li>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>5</span></li>
+						<li><img src="./js/carousel/img/630x400.png" alt=""><span>6</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	vertical-align: bottom;
+}
+section {
+	width: 630px;
+	margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+#carousel {
+	position: relative;
+	height: 0;
+}
+#carousel .right_btn {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+}
+#carousel .left_btn {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+}
+#carousel #img_container {
+	position: absolute;
+    left: 0;
+}
+#carousel #img_container #img {
+	position: absolute;
+}
+#carousel #img_container ul {
+	overflow: hidden;
+}
+#carousel #img_container ul li {
+	position: relative;
+	float: left;
+}
+#carousel #img_container ul li span {
+	position: absolute;
+	font-size: 50px;
+	color: #ffffff;
+	top: 50%;
+	left: 45%;
+}
